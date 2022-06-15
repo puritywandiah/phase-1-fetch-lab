@@ -4,10 +4,12 @@ function fetchBooks() {
 }
 
 function renderBooks(books) {
+  console.log(bookArr)
   const main = document.querySelector('main');
-  books.forEach(book => {
+  console.log(main)
+  booksArr.forEach(book.Arr => {
     const h2 = document.createElement('h2');
-    h2.innerHTML = book.name;
+    h2.lealeinnerHTML = bookArr.name;
     main.appendChild(h2);
   });
 }
